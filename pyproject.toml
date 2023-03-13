@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "분석"
+version = "0.1.0"
+description = ""
+authors = ["김준영 <kjy8668@mqnic.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+pyupbit = "^0.2.33"
+pykrx = "^1.0.40"
+datetime = "^5.0"
+ta-lib = "^0.4.25"
+matplotlib = "^3.7.0"
+holidays = "^0.20"
+mplfinance = "^0.12.9b7"
+yfinance = "^0.2.12"
+finance-datareader = "^0.9.50"
+mpl-finance = "^0.10.1"
+pathlib = "^1.0.1"
+ipython = "^8.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
